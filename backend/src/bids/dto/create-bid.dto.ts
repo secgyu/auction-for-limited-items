@@ -1,0 +1,7 @@
+import { IsInt, Min } from 'class-validator';
+
+export class CreateBidDto {
+  @IsInt()
+  @Min(1000)
+  amount: number;
+}

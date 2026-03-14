@@ -7,6 +7,7 @@ import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { ProductsModule } from './products/products.module';
 import { AuctionsModule } from './auctions/auctions.module';
+import { BidsModule } from './bids/bids.module';
 import { UploadsModule } from './uploads/uploads.module';
 
 @Module({
@@ -21,6 +22,7 @@ import { UploadsModule } from './uploads/uploads.module';
     AuthModule,
     ProductsModule,
     AuctionsModule,
+    BidsModule,
     UploadsModule,
   ],
 })
