@@ -8,6 +8,7 @@ import { AuthModule } from './auth/auth.module';
 import { ProductsModule } from './products/products.module';
 import { AuctionsModule } from './auctions/auctions.module';
 import { BidsModule } from './bids/bids.module';
+import { AdminModule } from './admin/admin.module';
 import { UploadsModule } from './uploads/uploads.module';
 
 @Module({
@@ -23,6 +24,7 @@ import { UploadsModule } from './uploads/uploads.module';
     ProductsModule,
     AuctionsModule,
     BidsModule,
+    AdminModule,
     UploadsModule,
   ],
 })
